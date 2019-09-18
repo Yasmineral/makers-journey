@@ -56,8 +56,8 @@ Much of a developer's life is spent translating User Stories into a functional s
 
 | Objects       | Methods           
 | ------------- |:-------------:|
-| controller    | right-aligned |
-| passenger     | centered      |
+| controller    |               |
+| passenger     |               |
 | plane         | flying?       |
 | airport       | land_plane    |
 

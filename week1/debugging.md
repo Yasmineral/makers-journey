@@ -54,11 +54,12 @@ Much of a developer's life is spent translating User Stories into a functional s
 
 4. Build a table of the objects and methods. For example...
 
-Object	Methods
-controller	
-passenger	
-plane	flying?
-airport	land_plane (make into table)
+| Objects       | Methods           
+| ------------- |:-------------:|
+| controller    | right-aligned |
+| passenger     | centered      |
+| plane         | flying?       |
+| airport       | land_plane    |
 
 5. Map the methods to objects to see which messages can be sent to which objects
 

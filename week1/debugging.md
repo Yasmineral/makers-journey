@@ -12,4 +12,4 @@
 
 # Week 1 goals
 1. Test-drive a simple program using objects and methods
-RSpec / objects and methods / TDD process
+* RSpec / objects and methods / TDD process

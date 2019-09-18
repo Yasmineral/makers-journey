@@ -11,5 +11,5 @@
 * Aim to do a professional review half way through the course
 
 # Week 1 goals
-*Test-drive a simple program using objects and methods
-    * RSpec / objects and methods / TDD process
+* Test-drive a simple program using objects and methods
+  * RSpec / objects and methods / TDD process

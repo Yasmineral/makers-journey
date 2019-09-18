@@ -47,7 +47,7 @@ Much of a developer's life is spent translating User Stories into a functional s
 
 **TDD Process**
 1. Write user stories from the requirements
-  * These should be user-centric, with a clear statement of value that this feature will give them
+    * These should be user-centric, with a clear statement of value that this feature will give them
 
 2. Extract the nouns and verbs from the first user story
     * Nouns are the objects, verbs are the messages or methods to send to the objects

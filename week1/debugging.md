@@ -50,7 +50,7 @@ Much of a developer's life is spent translating User Stories into a functional s
   * These should be user-centric, with a clear statement of value that this feature will give them
 
 2. Extract the nouns and verbs from the first user story
-  * Nouns are the objects, verbs are the messages or methods to send to the objects
+    * Nouns are the objects, verbs are the messages or methods to send to the objects
 
 4. Build a table of the objects and methods. For example...
 
@@ -71,5 +71,5 @@ airport	land_plane (make into table)
 9. Each object can be a separate file
 
 10. Further modelling can support a greater understanding of the problem, how the domain is structured, and how the parts of the eventual solution need to interact. This can include:
-  * Class models to represent the relationships between objects in your model
-  * Sequence diagrams to model each delegation to a different object or system with your application. They highlight information about what each message returns and what objects will call them
+    * Class models to represent the relationships between objects in your model
+    * Sequence diagrams to model each delegation to a different object or system with your application. They highlight information about what each message returns and what objects will call them

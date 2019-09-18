@@ -28,6 +28,7 @@
 
 ---
 **Tuesday 17th September**
+
 Alice led a debugging workshop with the below exercise, where there are three bugs to fix: https://github.com/Hives/skills-workshops/tree/master/week-1/debugging_1
 
 Learnings:
@@ -44,6 +45,7 @@ Learnings:
 A **User Story** describes one thing a program is expected to do, from the perspective of somebody using that program.
 Much of a developer's life is spent translating User Stories into a functional system. In Object-Oriented Programming, these systems are made up of Objects and Messages. Objects describe the objects within the system, and Messages describe how those objects interact. We call these systems **Domain Models**.
 
+**TDD Process**
 1. Write user stories from the requirements
   * These should be user-centric, with a clear statement of value that this feature will give them
 

@@ -7,10 +7,6 @@ At a high level, unit testing is about testing individual methods or areas (unit
 
 Example. Notice that the unit test is split into three distinct sections:
 
-Let’s return to our initial example. Notice that the unit test is split into three distinct sections
-
-Let’s return to our initial example. Notice that the unit test is split into three distinct sections
-
 ```describe FileSystem do
   it 'can add items to storage' do
     # Arrange

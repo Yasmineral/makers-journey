@@ -16,3 +16,4 @@
 6. Regularly run irb or features tests to check expected behaviour.
 
 7. Repeat the process for next requirement.
+

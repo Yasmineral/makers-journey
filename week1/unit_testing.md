@@ -4,6 +4,7 @@ Unit tests are the code you write to test your code. They provide you with reass
 At a high level, unit testing is about testing individual methods or areas (units) of your code to ensure that they do what you expect them to do. For any given unit of code, your unit tests allow you to ensure that, given a certain set of inputs, the output is as you expect.
 
 **Arrange, Act, Assert**
+
 Example. Notice that the unit test is split into three distinct sections:
 
 Let’s return to our initial example. Notice that the unit test is split into three distinct sections

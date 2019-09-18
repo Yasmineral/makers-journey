@@ -6,16 +6,22 @@ At a high level, unit testing is about testing individual methods or areas (unit
 **Arrange, Act, Assert**
 Example. Notice that the unit test is split into three distinct sections:
 
-`describe FileSystem do`
-  `it 'can add items to storage' do`
-    `# Arrange`
-    `file_system = FileSystem.new`
-    `file = File.new` 
-   ` # Act`
-   ` file_system.store(file)`
-   ` #Assert`
-    `expect(file_system.storage).to include(file)`
-  `end`
-`end``
+Let’s return to our initial example. Notice that the unit test is split into three distinct sections
+
+Let’s return to our initial example. Notice that the unit test is split into three distinct sections
+
+```describe FileSystem do
+  it 'can add items to storage' do
+    # Arrange
+    file_system = FileSystem.new
+    file = File.new
+
+    # Act
+    file_system.store(file)
+
+    #Assert
+    expect(file_system.storage).to include(file)
+  end
+end```
 
 This is a common pattern which many of your unit tests will follow. First you Arrange all the preconditions required for your code to run - creating any objects that you’re going to need. Next, you act or execute the code which needs to be run in order for your assertion to be true. Finally, you make the assertion itself.

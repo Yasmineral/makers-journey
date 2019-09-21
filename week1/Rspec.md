@@ -94,6 +94,7 @@ Instead of testing ```ObjectA``` against an instance of ```ObjectB```, I use a s
 
     * ```double_bike = double("bike")```
 
+
 * **Stubs**-
 I want to test some behaviour of ```ObjectA```, but during the execution of that behaviour, ```ObjectA``` calls a method on ```ObjectB```. I don't need to test that the method on ObjectB gets called, but I do want to make sure that when it does, the method on ```ObjectB``` always returns a specific value.
 
@@ -108,6 +109,7 @@ I want to test some behaviour of ```ObjectA```, but during the execution of that
     expect { subject.dock double(:bike) }.to raise_error 'Docking station full'
      end
     end```
+
 
 * **Mocks**-
 I want to test some behaviour of ```ObjectA``` and, critically, during the execution of that behaviour, ```ObjectA``` must call a method on ```ObjectB``` with specific arguments. In my test, I don't particularly care what happens afterwards, but I want to test that in the code that is about to be executed the specific method is called with the correct arguments.

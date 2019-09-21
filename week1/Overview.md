@@ -49,7 +49,7 @@ Learnings:
 * Where possible, don’t use ‘respond_to’ in your tests as it is quickly made redundant, e.g if it’s giving back the wrong method / one that isn’t needed. You will end up with brittle tests. It's more important to test return values (the behaviour of the object). We’re not interested in state at this point. 
 * Don’t believe all user stories! You may need to tweak to make them more logical.
 * Try to not change too much of your code when introducing new things to implement and test for. You want to aim to be ‘scaffolding’ code onto your exisiting program. Otherwise, all your tests may need rewriting.
-
+* At this stage, get in the habit of writing a test for every new bit of code, as painful or unituitive as it might seem. You are excercising your logical thinking brain. 
 
 ---
 # Boris Bikes - weekly challange

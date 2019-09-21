@@ -38,7 +38,7 @@ Learnings:
 * Your stack trace is the order of calls made by the program
 
 ---
-**Thursday 19th September
+**Thursday 19th September**
 
 Ed led the morning workshop with lessons & wisdom on TDD practices. We were asked to follow TDD processes to build a dice game - https://github.com/makersacademy/skills-workshops/blob/master/week-1/TDD_process.md. 
 

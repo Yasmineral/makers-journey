@@ -1,4 +1,4 @@
-#TDD process
+# TDD process
 
 1. Using the domain model, write the simplest first feature test for the first user story, using a REPL, to understand how you might interact with the program and the classes, methods, etc you know about so far. Watch the fail (RED step).
 

@@ -1,12 +1,12 @@
 # Advice from past cohorts
 
 * Work on problem-solving methodology asap
-* Try putting an hour aside when home to learn something more in-depth. ‘hour of power’
-* Don’t get wasted at weekends, this is only 3 months, don’t waste it
-* Start documenting learnings and working on a thesis
+* Try putting an hour aside when home to learn something more in-depth, ‘hour of power’
+* Don’t get wasted at weekends, this is only 3 months - don’t waste it
+* Start documenting learnings
 * Measure your success using things that you have learnt as opposed to the amount of work that you have completed 
 * Get comfortable with not finishing anything and take what learning you can from each challenge
-* Understanding the difference between what to test and what not to test. TDD is important, and can really help get the ball rolling when tackling your first couple of assignments
+* Understand the difference between what to test and what not to test. TDD is important, and can really help get the ball rolling when tackling your first couple of assignments
 * Message coaches for help when blocked
 * Aim to do a professional review half way through the course
 
@@ -39,9 +39,24 @@ Learnings:
 * Your stack trace is the order of calls made by the program
 
 ---
+**Thursday 19th September
+
+Ed led the morning workshop with lessons & wisdom on TDD practices. We were asked to follow TDD processes to build a dice game - https://github.com/makersacademy/skills-workshops/blob/master/week-1/TDD_process.md. 
+
+Learnings:
+* Set your acceptance criteria to define what your final program when it's ‘done’ looks like. Ideally, write that in code based on the user requirements. Then write your tests to assert this.
+* By default, always choose the simplest things to test first. Don’t over complicate things. This is the sign of a good dev. 
+* Feature test - replicate how its going to work from the point of view of who’s using the program. At the moment, we’re taking the place of the user so we’re using manual feature tests in irb. In the future, these will be automated with a test test framework.
+* Where possible, don’t use ‘respond_to’ in your tests as it is quickly made redundant, e.g if it’s giving back the wrong method / one that isn’t needed. You will end up with brittle tests. It's more important to test return values (the behaviour of the object). We’re not interested in state at this point. 
+* Don’t believe all user stories! You may need to tweak to make them more logical.
+* Try to not change too much of your code when introducing new things to implement and test for. You want to aim to be ‘scaffolding’ code onto your exisiting program. Otherwise, all your tests may need rewriting.
+
+
+---
 # Boris Bikes
 
 **User Stories to Domain Model**
+
 A **User Story** describes one thing a program is expected to do, from the perspective of somebody using that program.
 Much of a developer's life is spent translating User Stories into a functional system. In Object-Oriented Programming, these systems are made up of Objects and Messages. Objects describe the objects within the system, and Messages describe how those objects interact. We call these systems **Domain Models**.
 

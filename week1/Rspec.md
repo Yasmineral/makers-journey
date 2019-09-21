@@ -80,6 +80,8 @@ subject(:calculator) {described_class.new}
 ```
 It cache's to the setup when it was first declared, so if you want it to behave differently in another test you must write a new declaration for that specific test.
 
+* The ```respond_to``` tests are an initial step you go through using the tests to drive the creation of an objects public interface, and can safely be deleted once you have more sophisticated tests that check both the interface methods and their responses (and associated changes in state)
+
 ---
 
 # Doubles, Mocks & Stubs

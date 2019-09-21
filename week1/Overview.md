@@ -52,7 +52,7 @@ Learnings:
 * At this stage, get in the habit of writing a test for every new bit of code, as painful or unituitive as it might seem. You are excercising your logical thinking brain. 
 
 ---
-# Boris Bikes - weekly challange
+# Weekly challange - Boris Bikes
 
 **User Stories to Domain Model**
 

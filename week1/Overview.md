@@ -52,42 +52,13 @@ Learnings:
 
 
 ---
-# Boris Bikes
+# Boris Bikes - weekly challange
 
 **User Stories to Domain Model**
 
 A **User Story** describes one thing a program is expected to do, from the perspective of somebody using that program.
 Much of a developer's life is spent translating User Stories into a functional system. In Object-Oriented Programming, these systems are made up of Objects and Messages. Objects describe the objects within the system, and Messages describe how those objects interact. We call these systems **Domain Models**.
 
-**TDD Process**
-1. Write user stories from the requirements
-    * These should be user-centric, with a clear statement of value that this feature will give them
+* [TDD process](../week1/TDD.md)
+* RSPEC (todo)
 
-2. Extract the nouns and verbs from the first user story
-    * Nouns are the objects, verbs are the messages or methods to send to the objects
-
-4. Build a table of the objects and methods. For example...
-
-| Objects       | Methods           
-| ------------- |:-------------:|
-| controller    |               |
-| passenger     |               |
-| plane         | flying?       |
-| airport       | land_plane    |
-
-5. Map the methods to objects to see which messages can be sent to which objects
-
-6. Draw out how they need to interact (and how the individual objects should encapsulate their concerns)
-
-7. How would the user expect to use the program - run through an example in a REPL
-
-8. Write down a series of the simplest things to build up from (these could eventually become your tests)
-
-9. Each object can be a separate file
-
-10. Further modelling can support a greater understanding of the problem, how the domain is structured, and how the parts of the eventual solution need to interact. This can include:
-    * Class models to represent the relationships between objects in your model
-    * Sequence diagrams to model each delegation to a different object or system with your application. They highlight information about what each message returns and what objects will call them
-    
-
-[See also - General TDD](../week1/TDD.md)

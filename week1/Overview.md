@@ -60,5 +60,5 @@ A **User Story** describes one thing a program is expected to do, from the persp
 Much of a developer's life is spent translating User Stories into a functional system. In Object-Oriented Programming, these systems are made up of Objects and Messages. Objects describe the objects within the system, and Messages describe how those objects interact. We call these systems **Domain Models**.
 
 * [TDD process](../week1/TDD.md)
-* RSPEC (todo)
+* [RSPEC](../week1/Rspec.md)
 

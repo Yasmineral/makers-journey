@@ -29,7 +29,8 @@ Airport.new(nil, weather_double)
 ```
 
 ---
-**Mon 24th Sep***
+**Mon 24th Sep**
+
 Weekend challange code review with Michael. Take aways:
 
 * Air on the side of keeping error messages for truly unexpected and undesired behaviour, e.g - landing or taking off twice is unexpected so raise an error then.

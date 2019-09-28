@@ -24,3 +24,7 @@ Your Gemfile should always be in the root of your project directory, this is whe
   
 * The very last step of the process is to run bundle. This will invoke bundler, the dependency manager, that will look into Gemfile, see if any of the gems need to be installed (they may already be installed), install them and save the information about the gems, their versions and dependencies into an automatically generated ```Gemfile.lock```.
 
+**Bundle**
+
+Bundler: The best way to manage a Ruby application's gems. Bundler provides a consistent environment for Ruby projects by tracking and installing the exact gems and versions that are needed. Bundler is an exit from dependency hell, and ensures that the gems you need are present in development, staging, and production.
+

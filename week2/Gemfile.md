@@ -5,7 +5,7 @@ It is useful to note that your Gemfile is evaluated as Ruby code. When it is eva
 
 **Setting up a Gemfile**
 
-Your Gemfile should always be in the root of your project directory, this is where Bundler expects it to be and it is the standard place for any package manager style files to live.
+Your Gemfile should always be in the root of your project directory, this is where Bundler expects it to be and it is the standard place for any package manager style files to live. Run ```bundle init```.
 
 * The first thing we need to do is tell the Gemfile where to look for gems, this is called the source - ```source "https://rubygems.org”```
   * It isn’t recommended to have more than one source per project. For 99% of projects that require a Gemfile your source will be set to https://rubygems.org. The only requirement for a source is that it must be a valid Rubygems repository.

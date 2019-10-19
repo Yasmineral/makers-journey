@@ -98,7 +98,7 @@ require './models'
 
 Extra stuff:
 
-13. Create a seeds file
+13. Create a seeds file in migration to populate your table
 
 ```ruby
 touch db/seeds.rb

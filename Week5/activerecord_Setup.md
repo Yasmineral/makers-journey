@@ -35,35 +35,35 @@ test:
 <<: *default
 database: db-name-test
 ```
-           
-3. Set up database in your terminal
-```ruby
-rake db:setup
-```
 
-4. Create an app.rb file
+3. Copy and paste this under your class heading on app.rb
+``` set :database_file, 'config/database.yml'```
 
+4. Require at the top of your app.rb page
 ```ruby
 # app.rb
 require 'sinatra'
 require 'sinatra/activerecord'
-
-set :database_file, 'config/database.yml'
 ```
 
-5. Create migration file manually: **Rakefile**
+5. Set up database in your terminal
+```ruby
+rake db:setup
+```
+
+6. Create migration file manually: **Rakefile**
 ```ruby
 require 'sinatra/activerecord'
 require 'sinatra/activerecord/rake'
 require './app'
 ```
 
-6. Create migration: from command line
+7. Create migration: from command line
 ```ruby
 rake db:create_migration NAME=your_name
 ```
 
-7. Edit **db/migrate/new_migration_file** (auto loaded) to create your columns
+8. Edit **db/migrate/new_migration_file** (auto loaded) to create your columns
 ```ruby
 def change
   create_table :articles do |t|
@@ -73,25 +73,25 @@ def change
 end
 ```
 
-8. Run the migration from the command line:
+9. Run the migration from the command line:
 ```ruby
 rake db:migrate
 ```
 
-9. Create a user model: **models/example.rb**
+10. Create a user model: **models/example.rb**
 ```ruby
 class Example < ActiveRecord:: Base
 end
 ```
 
-10. Load the User model into your app
+11. Load the User model into your app
 
 ```ruby
 # at the bottom of app.rb
 require './models'
 ```
 
-11. CRUD in your app.rb file using params[:data]
+12. CRUD in your app.rb file using params[:data]
 
 
 ---

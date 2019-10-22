@@ -58,7 +58,7 @@ require 'sinatra/activerecord/rake'
 require './app'
 ```
 
-7. Create migration: from command line
+7. Create migration: from command line (make sure you name this file, otherwise rake will complain)
 ```ruby
 rake db:create_migration NAME=your_name
 ```

@@ -78,7 +78,7 @@ end
 rake db:migrate
 ```
 
-10. Create a user model to set up your classes & declare your belongs to / has many relationships (if any): **models/example.rb**
+10. Create a user model to set up your classes & declare your belongs to / has many relationships (if any). You'll use these within your controller. **models/example.rb**
 ```ruby
 class Example < ActiveRecord:: Base
 belongs_to :listings

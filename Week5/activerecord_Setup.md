@@ -46,17 +46,18 @@ require 'sinatra'
 require 'sinatra/activerecord'
 ```
 
-5. Set up database in your terminal
-```ruby
-rake db:setup
-```
-
-6. Create migration file manually: **Rakefile**
+5. Create migration file manually: **Rakefile**
 ```ruby
 require 'sinatra/activerecord'
 require 'sinatra/activerecord/rake'
 require './app'
 ```
+
+6. Set up database in your terminal
+```ruby
+rake db:setup
+```
+
 
 7. Create migration: from command line (make sure you name this file, otherwise rake will complain)
 ```ruby
@@ -67,9 +68,10 @@ rake db:create_migration NAME=your_name
 ```ruby
 def change
   create_table :articles do |t|
-  t.string :title
-  t.boolean :published, :default => false
-  t.datetime :published_on, :required => false
+    t.string :title
+    t.boolean :published, :default => false
+    t.datetime :published_on, :required => false
+  end
 end
 ```
 

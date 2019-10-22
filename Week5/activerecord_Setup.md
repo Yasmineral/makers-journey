@@ -63,7 +63,7 @@ require './app'
 rake db:create_migration NAME=your_name
 ```
 
-8. Edit **db/migrate/new_migration_file** (auto loaded) to create your columns
+8. Edit **db/migrate/new_migration_file** (auto loaded) to create your columns. You can also set up your table relationships in this file e.g ```belongs_to``` and ```has_many```.
 ```ruby
 def change
   create_table :articles do |t|

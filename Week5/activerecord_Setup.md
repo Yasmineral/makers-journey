@@ -78,9 +78,10 @@ end
 rake db:migrate
 ```
 
-10. Create a user model: **models/example.rb**
+10. Create a user model to set up your classes & declare your belongs to / has many relationships (if any): **models/example.rb**
 ```ruby
 class Example < ActiveRecord:: Base
+belongs_to :listings
 end
 ```
 

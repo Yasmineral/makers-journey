@@ -7,7 +7,7 @@ A constructor is any function which is used as a constructor. The language doesn
 * You must include parenthesis when invoking a function. This is to communicate to the JavaScript interpreter that we want it to execute this function, as opposed to returning the function itself.
 * You can declare arguments in functions
 * You must explicitly use return if you want to return a value from JS
-* There are no classes in JS but we do use functions as a convenient way to instantiate objects that share behaviour (objects in JS are just bags of properties.
+* There are no classes in JS but we do use functions as a convenient way to instantiate objects that share behaviour (objects in JS are just bags of properties.(ES5. ES6 has introuduced class functionality.)
 
 
 ## Prototype

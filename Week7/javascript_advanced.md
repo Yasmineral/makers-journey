@@ -50,7 +50,7 @@ We use IIFEs to hide variable and function declarations. The important part is a
 
 Keywords this and exports are the global object. This means that adding exclaim onto exports is effectively making exclaim globally available. That's why we can call exclaim("hi”).’ 
 
-**The Window Object** represents the browser’s window. All global JS objects / functions / variables automatically become members of the window objet.
+**The Window Object**  The window binding refers to a built-in object provided by the browser. It represents the browser window that contains the document. All global JS objects / functions / variables automatically become members of the window objet.
 
 **The Document Object Model (DOM)** is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects. That way, programming languages can connect to the page.
 A Web page is a document. This document can be either displayed in the browser window or as the HTML source. But it is the same document in both cases. The Document Object Model (DOM) represents that same document so it can be manipulated. The DOM is an object-oriented representation of the web page, which can be modified with a scripting language such as JavaScript.

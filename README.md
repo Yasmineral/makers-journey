@@ -1,3 +1,3 @@
 # makers-journey
 
-To-Do
+Notes, learnings, musings from my time at Makers :)
